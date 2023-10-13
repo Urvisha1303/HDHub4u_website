@@ -1,4 +1,4 @@
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .sub-header {
     display: flex;
   }
@@ -6,7 +6,7 @@
     color: white;
     display: flex;
     align-items: center;
-    width: 10%;
+    width: 20%;
     height: 70px;
     justify-content: center;
     cursor: pointer;
@@ -22,9 +22,9 @@
   }
 
   .header-left {
-    margin-left: 70px;
+    margin-left: 0;
     justify-content: center;
-    width: 50%;
+    width: 100%;
   }
   .header-right {
     width: 65%;
@@ -44,66 +44,65 @@
     margin-left: 27px;
   }
   .content-left {
-    width: 75%;
+    width: 77%;
   }
   .content-right {
-    width: 25%;
+    width: 33%;
   }
   .content-right input {
     width: 120px;
   }
-
   .solid-line1 {
     width: 86%;
     margin: 11px 35px;
   }
   .info {
-    font-size: 17px;
-  }
-  .category {
-    margin: 0px 20px;
-    display: block;
-  }
-  .category-name {
-    height: 50px;
-  }
-  .category-name i {
-    font-size: 30px;
-  }
-  .category-name h1 {
-    font-size: 22px;
-  }
-  .search-icon {
-    height: 50px;
-  }
-  .search-icon i {
-    font-size: 30px;
-  }
-  .search-icon h1 {
-    font-size: 20px;
-  }
-  .input {
-    width: 280px;
-  }
-  .cat-left {
-      width: 100%;
-  }
-  .cat-right {
-      width: 100%;
-  }
-  .select-category select {
-      width: 98%;
-  }
-  }
-  .recent-movie {
-    margin-top: 5px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .footer-right {
-    font-size: 19px;
-    justify-content: end;
-  }
-  .footer-left {
-    padding-left: 30px;
-  }
+    font-size: 14px;
+}
+.category {
+  margin: 0px 20px;
+  display: block;
+}
+.category-name {
+  height: 50px;
+}
+.category-name i {
+  font-size: 30px;
+}
+.category-name h1 {
+  font-size: 22px;
+}
+.search-icon {
+  height: 50px;
+}
+.search-icon i {
+  font-size: 30px;
+}
+.search-icon h1 {
+  font-size: 20px;
+}
+.input {
+  width: 280px;
+}
+.cat-left {
+    width: 100%;
+}
+.cat-right {
+    width: 100%;
+}
+.select-category select {
+    width: 98%;
+}
+
+.recent-movie {
+  margin-top: 5px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footer-right {
+  font-size: 19px;
+  justify-content: end;
+}
+.footer-left {
+  padding-left: 30px;
+}
 }

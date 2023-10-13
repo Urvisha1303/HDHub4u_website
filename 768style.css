@@ -35,7 +35,7 @@
     width: 91%;
 }
 .slider-image img {
-  width: 10%;
+  width: 13%;
 }
 .solid-line1 {
     width: 90%;
@@ -45,8 +45,12 @@
 .slider-image .img1 {
   display: none;
 }
+.slider-image .img2 {
+  display: none;
+}
 .content-left {
-    width: 152%;}
+    width: 150%;
+  }
 .content-left ul {
     margin-left: 15px;
 }
@@ -56,7 +60,10 @@
   height: 25px;
 }
 .content-right {
-  width: 38%;
+  width: 35%;
+}
+.info {
+  font-size: 17px;
 }
 .content-right input {
     height: 37px;
@@ -96,7 +103,7 @@
 .select-category select {
     width: 98%;
 }
-}
+
 .recent-movie {
   margin-top: 5px;
   grid-template-columns: repeat(3, 1fr);
