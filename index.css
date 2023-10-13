@@ -72,7 +72,7 @@
 
 .content-left{
     width: 90%;
-    height: 140px;
+    height: auto;
     display: flex;
 }
 
@@ -91,6 +91,7 @@
     height: 30px;
     margin-left: 6px;
     display: flex;
+    margin-bottom: 10px;
     text-decoration: none;
     align-items: center;
     border-radius: 4px;
@@ -141,6 +142,7 @@
     width: 74%;
     height: auto;
     border: 1px solid;
+    margin-bottom: 90px;
 }
 
 .category-name{
@@ -209,7 +211,8 @@
 
 .cat-right{
     width: 24%;
-    height: 800px;
+    height: auto;
+    margin-bottom: 50px;
     /* border: 1px solid; */
 }
 .search-icon{
@@ -266,7 +269,6 @@
     align-items: center;
     height: 100px;
     background: #000000;
-    margin-top: 50px;
     color: white;
 
 }
