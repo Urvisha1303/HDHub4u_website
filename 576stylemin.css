@@ -1,0 +1,34 @@
+@media (min-width: 576px) {
+  .sub-header {
+    display: flex;
+  }
+  .menu-bar {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 70px;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .menu-bar i:hover {
+    background-color: rgb(61, 61, 222);
+  }
+  .menu-bar i {
+    border: 1px solid white;
+    padding: 8px;
+    font-size: 26px;
+    border-radius: 7px;
+  }
+
+  .header-left {
+    margin-left: 70px;
+    justify-content: center;
+    width: 50%;
+  }
+  .header-right {
+    width: 65%;
+    margin-left: 150px;
+    display: none;
+  }
+}

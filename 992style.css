@@ -2,6 +2,10 @@
   .sub-header {
     display: block;
   }
+
+  .menu-bar {
+    display: none;
+  }
   .header-left {
     margin-left: 70px;
     justify-content: unset;
@@ -9,6 +13,7 @@
   .header-right {
     width: 65%;
     margin-left: 150px;
+    display: flex;
   }
   .slider-image img {
     width: 10%;
