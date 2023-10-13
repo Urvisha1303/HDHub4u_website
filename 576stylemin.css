@@ -94,7 +94,7 @@
   .select-category select {
       width: 98%;
   }
-  }
+  
   .recent-movie {
     margin-top: 5px;
     grid-template-columns: repeat(2, 1fr);
